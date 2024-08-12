@@ -1,7 +1,7 @@
 # Cool Edge Creamery | Birthday Email Template
 This is a responsive HTML email template wishing the recipient a happy birthday from a fictional company named Cool Edge Creamery.
 
-🖥️Demo: Coming soon
+🖥️Demo: https://diamonick.github.io/Cool-Edge-Creamery-Birthday-Email-Template/
 
 <img src="Assets/Art/Birthday_Email_Template_Demo_Photo.png" alt="Demo Photo" height="1080">
 
