@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*#region Fonts*/
+/* Helvetica Neue Light font */
+@font-face
+{
+    font-family: 'Helvetica Neue Light';
+    src: url('./Assets/Fonts/Helvetica-Neue/Helvetica-Neue-Light.OTF');
+}
+
+/* Helvetica Neue Light Italic font */
+@font-face
+{
+    font-family: 'Helvetica Neue Light Italic';
+    src: url('./Assets/Fonts/Helvetica-Neue/Helvetica-Neue-Light-Italic.OTF');
+}
+
+/* Helvetica Neue Medium font */
+@font-face
+{
+    font-family: 'Helvetica Neue Medium';
+    src: url('./Assets/Fonts/Helvetica-Neue/Helvetica-Neue-Medium.OTF');
+}
+
+/* Helvetica Neue Medium Italic font */
+@font-face
+{
+    font-family: 'Helvetica Neue Medium Italic';
+    src: url('./Assets/Fonts/Helvetica-Neue/Helvetica-Neue-Medium-Italic.OTF');
+}
+
+/* Helvetica Neue Bold font */
+@font-face
+{
+    font-family: 'Helvetica Neue Bold';
+    src: url('./Assets/Fonts/Helvetica-Neue/Helvetica-Neue-Bold.OTF');
+}
+
+/* Helvetica Neue Bold Italic font */
+@font-face
+{
+    font-family: 'Helvetica Neue Bold Italic';
+    src: url('./Assets/Fonts/Helvetica-Neue/Helvetica-Neue-Bold-Italic.OTF');
+}
+
+/* Hayward font */
+@font-face
+{
+    font-family: 'Hayward';
+    src: url('./Assets/Fonts/Hayward/Hayward.TTF');
+}
+/*#endregion*/
+
+@layer components
+{
+    .unselectable-element
+    {
+      @apply select-none pointer-events-none;
+    }
+    
+    .element-center
+    {
+      @apply top-2/4 -translate-y-2/4 left-2/4 -translate-x-2/4;
+    }
+
+    .h-center
+    {
+      @apply left-2/4 -translate-x-2/4;
+    }
+    
+    .v-center
+    {
+      @apply top-2/4 -translate-y-2/4;
+    }
+}
